@@ -2308,7 +2308,9 @@ ul.folder-list li {
     font-size: 0.8rem;
     list-style: disc;
 }
-
+#page6 {
+    justify-content: center;
+}
 #page4,
 #page5 {
     justify-content: center;
