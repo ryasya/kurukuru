@@ -2,458 +2,65 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Welcome</title>
-  <link rel="stylesheet" href="./assets/css/styles.css">
-  <link rel="stylesheet" href="./assets/css/responsive.css">
+    <meta charset="utf-8" />
+    <title>Kuru Kuru~</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
 </head>
 
 <body>
-  <div class="loading-wrapper" id="loading">
-    <div class="bg-mobile">
-      <div class="big-slash">
-        <div class="slash"></div>
-        <div class="slash"></div>
-        <div class="slash"></div>
-        <div class="slash"></div>
-        <div class="slash"></div>
-        <div class="slash"></div>
-      </div>
+    <img src="img/hertaa1.gif" class="preload" />
+    <img src="img/hertaa2.gif" class="preload" />
+    <div id="content">
+        <h1>Welcome to herta kuru</h1>
+        <hr id="subtitle-seperator" />
+        <h2>
+            The website for Herta, the <del>annoying</del> cutest genius Honkai:
+            Star Rail character out there.
+        </h2>
+        <div id="counter-container">
+            <h3>The kuru~ has been squished</h3>
+            <br />
+            <br />
+            <p id="global-counter">0</p>
+            <p id="local-counter">0</p>
+            <br />
+            <br />
+            <p>times</p>
+            <button id="counter-button">
+                Pencet Bang~!
+            </button>
+        </div>
+        <hr />
+        <div id="grid">
+            <noscript>Your browser does not support JavaScript or JavaScript has been
+                disabled.<br />This website relies on JavaScript, so please enable it
+                or use another browser.</noscript>
+        </div>
     </div>
-    <div class="loading-text" animasi-tulisan="LOADING"></div>
-    <div class="loading-animation">
-
-      <div class="box-left"></div>
-      <div class="box-right"></div>
-      <div class="morse-left">
-
-        <div class="dot hide-lg hide-xl"></div>
-        <div class="dot hide-lg  hide-xl"></div>
-        <div class="dash hide-lg  hide-xl"></div>
-        <div class="dot hide-lg  hide-xl"></div>
-        <div class="dot hide-lg  hide-xl"></div>
-        <div class="dash hide-lg  hide-xl"></div>
-        <div class="dash hide-lg"></div>
-        <div class="dash hide-lg"></div>
-        <div class="dot hide-lg"></div>
-        <div class="dash hide-lg"></div>
-        <div class="dash hide-lg"></div>
-        <div class="dot hide-lg"></div>
-        <div class="dot hide-lg"></div>
-        <div class="dot hide-md"></div>
-        <div class="dash hide-md"></div>
-        <div class="dot hide-md"></div>
-        <div class="dash hide-md"></div>
-        <div class="dot hide-md"></div>
-        <div class="dot hide-md"></div>
-
-        <div class="slash"></div>
-        <div class="slash"></div>
-        <div class="slash"></div>
-        <div class="slash"></div>
-        <div class="slash"></div>
-        <div class="slash"></div>
-        <div class="slash"></div>
-        <div class="slash"></div>
-
-
-      </div>
-      <div class="morse-right">
-
-
-        <div class="dot hide-lg hide-xl"></div>
-        <div class="dot hide-lg  hide-xl"></div>
-        <div class="dash hide-lg  hide-xl"></div>
-        <div class="dot hide-lg  hide-xl"></div>
-        <div class="dot hide-lg  hide-xl"></div>
-        <div class="dash hide-lg  hide-xl"></div>
-        <div class="dash hide-lg"></div>
-        <div class="dash hide-lg"></div>
-        <div class="dot hide-lg"></div>
-        <div class="dash hide-lg"></div>
-        <div class="dash hide-lg"></div>
-        <div class="dot hide-lg"></div>
-        <div class="dot hide-lg"></div>
-        <div class="dot hide-md"></div>
-        <div class="dash hide-md"></div>
-        <div class="dot hide-md"></div>
-        <div class="dash hide-md"></div>
-        <div class="dot hide-md"></div>
-        <div class="dot hide-md"></div>
-
-        <div class="slash"></div>
-        <div class="slash"></div>
-        <div class="slash"></div>
-        <div class="slash"></div>
-        <div class="slash"></div>
-        <div class="slash"></div>
-        <div class="slash"></div>
-        <div class="slash"></div>
-
-      </div>
-      <div class="section-rigth">
-        <div class="path cancel-path"></div>
-        <div class="path triangle-path"></div>
-        <div class="bar-small"></div>
-        <div class="path triangle-path" style="transform: rotateZ(180deg);"></div>
-        <div class="bar-medium"></div>
-        <div class="path cancel-path"></div>
-        <div class="bar-medium hide-lg"></div>
-        <div class="path circle-path hide-lg"></div>
-        <div class="path triangle-path hide-lg" style="transform: rotateZ(180deg);"></div>
-      </div>
-      <div class="section-left">
-        <div class="path triangle-path"></div>
-        <div class="path circle-path"></div>
-
-        <div class="bar-small"></div>
-        <div class="path triangle-path" style="transform: rotateZ(180deg);"></div>
-        <div class="bar-medium "></div>
-        <div class="path triangle-path hide-lg"></div>
-        <div class="path cancel-path hide-lg"></div>
-        <div class="bar-medium hide-lg"></div>
-
-        <div class="path cancel-path"></div>
-
-      </div>
+    <div id="footer">
+        <img id="herta-card" loading="lazy" src="img/card.jpg" alt="" />
+        <div id="footer-text">
+            <p>made by</p>
+            <p>
+                <a href="https://www.instagram.com/aryaeka.r.p/" target="_blank"><iconify-icon icon="mdi:instagram"
+                        id="instagram-footer-icon" class="footer-icon"></iconify-icon><span
+                        class="footer-icon-text">@aryoks</span></a>
+            </p>
+            <p id="footer-repository-text">
+                You can check out the GitHub repository here:
+            </p>
+            <p>
+                <a href="https://github.com/ryasya/kurukuru target="_blank"><iconify-icon icon="mdi:github"
+                        id="github-footer-icon" class="footer-icon"></iconify-icon><span
+                        class="footer-icon-text">kurukuru repo</span></a>
+            </p>
+        </div>
     </div>
-
-  </div>
-  <div id="mouse-tooltip"></div>
-  <ul class="side-nav" id="menu">
-    <li data-page="#page1" tooltip="HOME" class="active"><a href="#"><span></span></a></li>
-    <li data-page="#page2" tooltip="PROFILE"><a href="#"><span></span></a></li>
-    <li data-page="#page3" tooltip="PROJECT"><a href="#"><span></span></a></li>
-    <li data-page="#page4" tooltip="SKILL"><a href="#"><span></span></a></li>
-    <li data-page="#page5" tooltip="CONTACT"><a href="#"><span></span></a></li>
-    <li data-page="#page6" tooltip="SPOTIFY"><a href="#"><span></span></a></li>
-  </ul>
-
-
-
-  <div id="full-page">
-    <section class="active" id="page1">
-      <div class="bg-animasi">
-        <p class="text" style="left: 10%;bottom: 10%;"></p>
-        <p class="text" style="right: 10%;top: 10%;"></p>
-        <div class="anim-1" style="top: 20%;">
-          <div class="cancel-path"></div>
-        </div>
-
-        <div class="anim-2" style="bottom: 30%;">
-          <div class="triangle-path"></div>
-        </div>
-
-        <div class="barcode">
-          <div class="big-slash">
-            <div class="slash"></div>
-            <div class="slash"></div>
-            <div class="slash"></div>
-            <div class="slash"></div>
-            <div class="slash"></div>
-            <div class="slash"></div>
-          </div>
-        </div>
-
-        <div class="jajar-genjang"></div>
-
-        <div class="circle">
-          <span></span>
-        </div>
-
-        <div class="anim-3">
-          <div class="cancel-path"></div>
-        </div>
-      </div>
-      <div class="container">
-        <h2 animasi-tulisan="ARYOKS"></h2>
-        <div class="mouse">
-          <div class="mouse-shape">
-            <div class="mouse-animation"></div>
-          </div>
-          <div class="mouse-msg" animasi-tulisan="KEEP SCROLL"></div>
-        </div>
-      </div>
-    </section>
-    <section id="page2">
-
-      <div class="container">
-        <h4>PERSONAL INFORMATION</h4>
-
-        <div class="border-shape">
-          <div class="content-shape">
-            <div class="row biodata">
-              <div class="col-4">
-                <div class="lds-dual-ring"></div>
-                <div class="image-glitch">
-                  <div class="image-distortion" id="base" style="background-image: url('./assets/images/image.jpg');">
-                  </div>
-                  <div class="image-distortion" id="red" style="background-image: url('./assets/images/image.jpg');">
-                  </div>
-                  <div class="image-distortion" id="cyan" style="background-image: url('./assets/images/image.jpg');">
-                  </div>
-                  <div class="image-distortion" id="transparent"
-                    style="background-image: url('./assets/images/image.jpg');"></div>
-                </div>
-              </div>
-              <div class="col-8">
-                <div class="box">
-                  <ul>
-                    <li>
-                      NAME : <span animasi-tulisan="Aryoks?">..........</span>
-                    </li>
-                    <li>
-                      BORN : <span animasi-tulisan="YOGYAKARTA">.........</span>
-                    </li>
-                    <li>
-                      ADDRESS : <span animasi-tulisan="?">.........</span>
-                    </li>
-
-                  </ul>
-                </div>
-                <div class="box">
-                  <h4>STATUS</h4>
-                  <div class="stripes">
-                    <div class="stripes-bg">
-
-                    </div>
-                    <span class="status" animasi-tulisan="STUDENT"><a href="https://open.spotify.com/user/31ohvxcrpucqdlbug7thpougbxs4" target="_blank"> ![Spotify](https://spotify-github-profile.vercel.app/api/view.svg?uid=31ohvxcrpucqdlbug7thpougbxs4&redirect=true][https://spotify-github-profile.vercel.app/api/view.svg?uid=31ohvxcrpucqdlbug7thpougbxs4&cover_image=true&theme=novatorem&show_offline=true&background_color=000000&interchange=true&bar_color=4bbe53&bar_color_cover=true)</a></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section>
-    <section id="page3">
-      <div class="container">
-        <h4>PROJECT & WORK</h4>
-        <div class="border-shape">
-          <div class="content-shape">
-            <div class="row project">
-              <div class="col-2">
-                <ul class="folder-list">
-                  <li data-target="#project-web" class="selected">
-                    <div class="folder-parent">
-                      <div class="folder">
-                        <div class="folder__back">
-                          <div class="paper"></div>
-                          <div class="paper"></div>
-                          <div class="paper"></div>
-                          <div class="folder__front"></div>
-                          <div class="folder__front right"></div>
-                        </div>
-                      </div>
-                      <span>WEB</span>
-                    </div>
-
-                  </li>
-                  <li data-target="#project-mobile">
-                    <div class="folder-parent">
-                      <div class="folder">
-                        <div class="folder__back">
-                          <div class="paper"></div>
-                          <div class="paper"></div>
-                          <div class="paper"></div>
-                          <div class="folder__front"></div>
-                          <div class="folder__front right"></div>
-                        </div>
-                      </div>
-                      <span>MOBILE</span>
-                    </div>
-                  </li>
-                  <li data-target="#project-game">
-                    <div class="folder-parent">
-                      <div class="folder">
-                        <div class="folder__back">
-                          <div class="paper"></div>
-                          <div class="paper"></div>
-                          <div class="paper"></div>
-                          <div class="folder__front"></div>
-                          <div class="folder__front right"></div>
-                        </div>
-                      </div>
-                      <span>GAME</span>
-                    </div>
-                  </li>
-                  <li data-target="#project-library">
-                    <div class="folder-parent">
-                      <div class="folder">
-                        <div class="folder__back">
-                          <div class="paper"></div>
-                          <div class="paper"></div>
-                          <div class="paper"></div>
-                          <div class="folder__front"></div>
-                          <div class="folder__front right"></div>
-                        </div>
-                      </div>
-                      <span>LIBRARY</span>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-              <div class="col-10">
-                <div class="box">
-                  <div class="loading-bar">
-                    <div class="loading-bg">
-                      <div class="loading-fill"></div>
-                    </div>
-                  </div>
-                  <div class="box-content" id="project-web">
-                    <a href="https://github.com/ryasya"><img class="list-item" src="./assets/images/peta.png" tooltip="BOOTSTRAP" onclick="openModalImage(this)" alt="Latihan Bootstrap"/></a>
-
-                  </div>
-                  <div class="box-content" id="project-mobile">
-                    <img class="list-item" src="./assets/images/notes_lite.png" tooltip="NOTES LITE" onclick="openModalImage(this)" alt="Aplikasi Note Sederhana Dibuat Dengan Flutter"/>
-                    
-                  </div>
-                  <div class="box-content" id="project-game">
-                    <img class="list-item" src="./assets/images/escape_labyrinth.webp" tooltip="ESCAPE LABYRINTH" onclick="openModalImage(this)" alt="Game Horor Sederhana Dibuat Dengan Unity3D"/>
-
-                    <img class="list-item" src="./assets/images/box_dungeon.webp" tooltip="BOX DUNGEON" onclick="openModalImage(this)" alt="Game Dungeon Crawler Sederhana Dibuat Dengan Unity3D"/>
-                    
-                  </div>
-                  <div class="box-content" id="project-library">
-                    <a href="https://github.com/ryasya" target="_blank" class="list-item"
-                      tooltip="Github">
-                      Profile
-                    </a>
-                    <a href="https://instagram.com/aryaeka.r.p" target="_blank" class="list-item"
-                      tooltip="Instagram">
-                      Instagram
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="page4">
-      <div class="bg-animasi">
-        <p class="text" style="left: 10%;bottom: 1%;"></p>
-        <p class="text" style="right: 10%;top: 1%;"></p>
-
-
-
-
-        <div class="circle">
-          <span></span>
-        </div>
-
-        <div class="anim-3">
-          <div class="cancel-path"></div>
-        </div>
-      </div>
-      <div class="container">
-        <h4>SKILL</h4>
-        <div class="border-shape">
-          <div class="content-shape">
-            <div class="row skill">
-              <div class="col-6">
-                <ul>
-                  <li animasi-tulisan="HTML"></li>
-                  <li animasi-tulisan="CSS"></li>
-                  <li animasi-tulisan="JS"></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-    </section>
-    <section id="page5">
-      <div class="bg-animasi">
-        <p class="text" style="left: 10%;bottom: 1%;"></p>
-        <p class="text" style="right: 10%;top: 1%;"></p>
-
-
-
-
-        <div class="circle">
-          <span></span>
-        </div>
-
-        <div class="anim-3">
-          <div class="cancel-path"></div>
-        </div>
-      </div>
-      <div class="container">
-        <h4>CONTACT</h4>
-        <div class="border-shape">
-          <div class="content-shape">
-            <div class="row contact">
-              <div class="col-6">
-                <ul>
-                  <li animasi-tulisan="WHATSAPP"><a href="https://wa.me/6282265468133"></a></li>
-                  <li animasi-tulisan="EMAIL"><a href="mailto:ryasya@aryoks.me"></a></li>
-                </ul>
-              </div>
-              <div class="col-6">
-                <ul>
-                  <li animasi-tulisan="GITHUB"><a href="https://github.com/ryasya"></a>
-                  </li>
-                  <li animasi-tulisan="INSTAGRAM"><a href="https://www.instagram.com/aryaeka.r.p"></a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    
-    </section>
-    <section id="page6">
-      <div class="bg-animasi">
-        <p class="text" style="left: 10%;bottom: 1%;"></p>
-        <p class="text" style="right: 10%;top: 1%;"></p>
-
-
-
-
-        <div class="circle">
-          <span></span>
-        </div>
-
-        <div class="anim-3">
-          <div class="cancel-path"></div>
-        </div>
-      </div>
-      <div class="container">
-        <h4>SPOTIFY</h4>
-        <div class="border-shape">
-          <div class="content-shape">
-            <div class="row spotify">
-              <div class="aduh">
-              <div class="col-6">
-                <div class="aiueo">
-                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/5kjGRHClVacSyllOUqU1S0?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                </div>
-                <div>
-                <a href="https://open.spotify.com/user/31ohvxcrpucqdlbug7thpougbxs4" align="center" target="_blank">GO TO SPOTIFY</a>
-                </div>  
-              </div>
-             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-  </div>
-
-  <div id="myModal" class="modal">
-    <img class="modal-content" id="img01">
-    <div id="caption"></div>
-  </div>
-
-  <script src="./assets/js/scrollpage.js"></script>
-  <script src="./assets/js/scripts.js"></script>
 </body>
-
+<script src="script.js" async></script>
 </html>
